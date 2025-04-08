@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class GameManager : MonoBehaviour
     public Transform[] cardSlots;
     public bool[] availableCardSlots;
     public Text deckSizeText;
+    public TMP_Text typedTextDisplay;
+    private string currentTypedText = "";
 
     private void Start()
     {
@@ -31,6 +34,31 @@ public class GameManager : MonoBehaviour
         }
     }
 
+private void Update()
+{
+    HandleTypingInput(); // Add this to hook into Unity's frame update
+}
+
+private void HandleTypingInput()
+{
+    string allowedChars = "AEIOTRSPLC";
+
+    foreach (char c in Input.inputString.ToUpper())
+    {
+        if (c == '\b') // Backspace
+        {
+            if (currentTypedText.Length > 0)
+                currentTypedText = currentTypedText.Substring(0, currentTypedText.Length - 1);
+        }
+        else if (allowedChars.Contains(c) && currentTypedText.Length < 10)
+        {
+            currentTypedText += c;
+        }
+
+        if (typedTextDisplay != null)
+            typedTextDisplay.text = currentTypedText;
+    }
+}
     public void DrawCard()
     {
         if (deck.Count > 0)
@@ -78,4 +106,6 @@ public class GameManager : MonoBehaviour
             deckSizeText.text = deck.Count.ToString();
         }
     }
+
+    
 }
