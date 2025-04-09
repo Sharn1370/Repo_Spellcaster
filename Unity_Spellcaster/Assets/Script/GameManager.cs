@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public Text deckSizeText;
     public TMP_Text typedTextDisplay;
     private string currentTypedText = "";
+    public static GameManager Instance { get; private set; }
+
 
     private void Start()
     {
@@ -34,10 +36,29 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void Awake()
+{
+    Instance = this;
+}
+
 private void Update()
 {
     HandleTypingInput(); // Add this to hook into Unity's frame update
+    //handlecardinput?
 }
+
+ public void OnCardPressed(char letter)
+    {
+        // Process the letter just like it's typed from the keyboard
+        string allowedChars = "AEIOTRSPLC";  // You can customize this to match your allowed letters
+
+        // Make sure the letter is valid and within the allowed characters
+        if (allowedChars.Contains(letter) && currentTypedText.Length < 10)
+        {
+            currentTypedText += letter;  // Add the letter to the typed text
+            typedTextDisplay.text = currentTypedText;  // Update the display
+        }
+    }
 
 private void HandleTypingInput()
 {
@@ -57,6 +78,7 @@ private void HandleTypingInput()
 
         if (typedTextDisplay != null)
             typedTextDisplay.text = currentTypedText;
+            //I want this to accept information from card.cs, the letter that has been sent, and process this letter the same way as keyboard input
     }
 }
     public void DrawCard()
