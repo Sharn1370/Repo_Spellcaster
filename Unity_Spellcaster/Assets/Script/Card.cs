@@ -16,8 +16,7 @@ public class Card : MonoBehaviour
     // If you want to allow changing the letter externally, you can still use this method for other purposes.
     private char GetRandomAllowedLetter()
     {
-        string allowedLetters = "AEIOTRSPLC";  // Allowed letters
-        // Instead of random selection, just return the assignedLetter.
+        string allowedLetters = "AEIOTRSPLC";  // Allowed letter
         return assignedLetter;  // Just return the assigned letter
     }
 

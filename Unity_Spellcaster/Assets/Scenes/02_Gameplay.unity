@@ -6984,7 +6984,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 380069621}
+      - m_Target: {fileID: 1926698440}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
         m_MethodName: OnCardClicked
         m_Mode: 1
