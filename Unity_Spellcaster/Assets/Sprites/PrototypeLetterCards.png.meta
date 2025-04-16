@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PrototypeLetterCards_0: -1045088399123126743
+      PrototypeLetterCards_1: -2083008121835356817
+      PrototypeLetterCards_10: -8729726122402293686
+      PrototypeLetterCards_11: 6614778092749255243
+      PrototypeLetterCards_2: 3587677376988051150
+      PrototypeLetterCards_3: 7240338712640530565
+      PrototypeLetterCards_4: 6311330818003148342
+      PrototypeLetterCards_5: -4377856133357898300
+      PrototypeLetterCards_6: -6466872199639013254
+      PrototypeLetterCards_7: 2977422631737229703
+      PrototypeLetterCards_8: 5269696639170077114
+      PrototypeLetterCards_9: 7786624977570595661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
