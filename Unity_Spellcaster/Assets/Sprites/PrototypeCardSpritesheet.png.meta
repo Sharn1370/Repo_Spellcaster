@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PrototypeCardSpritesheet_0: 6311480592550935056
+      PrototypeCardSpritesheet_1: -1751382687633622984
+      PrototypeCardSpritesheet_10: 5339394354310922462
+      PrototypeCardSpritesheet_11: -3468100127837860201
+      PrototypeCardSpritesheet_2: -8434579304782430725
+      PrototypeCardSpritesheet_3: 2033005168629816595
+      PrototypeCardSpritesheet_4: -8699580847047193398
+      PrototypeCardSpritesheet_5: -52774504223508169
+      PrototypeCardSpritesheet_6: -6967936145928488275
+      PrototypeCardSpritesheet_7: -482239243092912637
+      PrototypeCardSpritesheet_8: 2047562056736349092
+      PrototypeCardSpritesheet_9: 7954416188350570903
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
