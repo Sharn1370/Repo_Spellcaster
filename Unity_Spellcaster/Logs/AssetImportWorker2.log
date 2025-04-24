@@ -592,3 +592,31 @@ Received Import Request.
 Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/SpellCaster-Regular SDF.asset using Guid(49a9637cea6b2d14fa3b5bcfa4c2ad43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7b62d7c5ac7b37c6f60e8d266ae7957') in 0.6165533 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
+========================================================================
+Received Import Request.
+  Time since last request: 584.052313 seconds.
+  path: Assets/Sprites/CardBack.png
+  artifactKey: Guid(6e056b17a230f794a81802aaca92c1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/CardBack.png using Guid(6e056b17a230f794a81802aaca92c1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0028b3d21bb2f506fa433f64ab6d47d8') in 0.0607021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/menu back 2.png
+  artifactKey: Guid(89606fce7f0a465439520ddf5722570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/menu back 2.png using Guid(89606fce7f0a465439520ddf5722570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c23f033b2094761528d015e577aa0366') in 0.0258668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/gameplaykitty 1.png
+  artifactKey: Guid(eba59eb2af1ff9041b60fadb3e932713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/gameplaykitty 1.png using Guid(eba59eb2af1ff9041b60fadb3e932713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7feef0954ed10fd5d14cbd3a88a4018c') in 0.0364732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
