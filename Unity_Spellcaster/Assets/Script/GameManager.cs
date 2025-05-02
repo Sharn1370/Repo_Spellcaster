@@ -61,7 +61,6 @@ private void Update()
             typedTextDisplay.text = currentTypedText;  // Update the display
         }
     }
-
 private void HandleTypingInput()
 {
     string allowedChars = "AEIOTRSPLC";
@@ -73,19 +72,24 @@ private void HandleTypingInput()
             if (currentTypedText.Length > 0)
                 currentTypedText = currentTypedText.Substring(0, currentTypedText.Length - 1);
         }
+        else if (c == '\n' || c == '\r') // ENTER pressed
+        {
+            ValidateTypedWord();
+            currentTypedText = ""; // Clear after checking
+        }
         else if (allowedChars.Contains(c) && currentTypedText.Length < 10)
         {
             currentTypedText += c;
         }
-
-        if (typedTextDisplay != null)
-{
-    typedTextDisplay.color = new Color(typedTextDisplay.color.r, typedTextDisplay.color.g, typedTextDisplay.color.b, 1f);
-    typedTextDisplay.text = currentTypedText;
-}
     }
-     ValidateTypedWord();
+
+    if (typedTextDisplay != null)
+    {
+        typedTextDisplay.color = new Color(typedTextDisplay.color.r, typedTextDisplay.color.g, typedTextDisplay.color.b, 1f);
+        typedTextDisplay.text = currentTypedText;
+    }
 }
+    
 
  private void ValidateTypedWord()
     {
