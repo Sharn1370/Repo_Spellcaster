@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: eba59eb2af1ff9041b60fadb3e932713
+guid: fba991c00badfbb4eb51e33b2de74f4c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -25413597536719343
-    second: gameplaykitty 1_0
+      213: 2764710164941604672
+    second: winscreen - win illustration_0
+  - first:
+      213: -7060993266476835987
+    second: winscreen - win illustration_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +99,49 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gameplaykitty 1_0
+      name: winscreen - win illustration_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4684
-        height: 4855
+        width: 595
+        height: 720
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11eeb5ab776b5aff0800000000000000
-      internalID: -25413597536719343
+      spriteID: 04781483f393e5620800000000000000
+      internalID: 2764710164941604672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winscreen - win illustration_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 556
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b193ee800520e90800000000000000
+      internalID: -7060993266476835987
       vertices: []
       indices: 
       edges: []
@@ -138,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 16b3e0d6c4504ee4cb81fa8ae5e9ede5
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      winscreen - win illustration_0: 2764710164941604672
+      winscreen - win illustration_1: -7060993266476835987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

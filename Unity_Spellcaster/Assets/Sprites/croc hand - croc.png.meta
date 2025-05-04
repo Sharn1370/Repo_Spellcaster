@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: af70af6a2b63a724c8bd286d54c0b2ff
+guid: cc64aa3cb56b60d4f9eceb8248e81155
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4603182780432533220
-    second: borders_0
-  - first:
-      213: 2295092231375942557
-    second: borders_1
-  - first:
-      213: -8087359784509707058
-    second: borders_2
-  - first:
-      213: -948465428593465155
-    second: borders_3
+      213: 2286752859531720016
+    second: croc hand - croc_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,74 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: borders_0
+      name: croc hand - croc_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 3451
-        width: 1516
-        height: 1562
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c19bf1066a53e10c0800000000000000
-      internalID: -4603182780432533220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: borders_1
-      rect:
-        serializedVersion: 2
-        x: 7796
-        y: 3451
-        width: 1516
-        height: 1562
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d93fbe9793ec9df10800000000000000
-      internalID: 2295092231375942557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: borders_2
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 126
         y: 0
-        width: 1255
-        height: 1255
+        width: 796
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecce489ef1de3cf80800000000000000
-      internalID: -8087359784509707058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: borders_3
-      rect:
-        serializedVersion: 2
-        x: 8079
-        y: 0
-        width: 1255
-        height: 1255
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db8a2f6c7bf56d2f0800000000000000
-      internalID: -948465428593465155
+      spriteID: 0553f792c9d2cbf10800000000000000
+      internalID: 2286752859531720016
       vertices: []
       indices: 
       edges: []
@@ -222,11 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      borders_0: -4603182780432533220
-      borders_1: 2295092231375942557
-      borders_2: -8087359784509707058
-      borders_3: -948465428593465155
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

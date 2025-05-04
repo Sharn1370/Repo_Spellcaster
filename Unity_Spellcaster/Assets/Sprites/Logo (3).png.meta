@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 1267e6ab4bcc5be4d950b75039fa44b5
+guid: d33e66ce4e6cf274080e733bf13547a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7107620976668502987
-    second: gameplaycroc 1_0
+      213: -4436986270080950950
+    second: Logo (3)_0
   - first:
-      213: 8500653998657828041
-    second: gameplaycroc 1_1
+      213: 2392998935931209320
+    second: Logo (3)_1
   - first:
-      213: 7700746261416649589
-    second: gameplaycroc 1_2
+      213: 449561357681082174
+    second: Logo (3)_2
   - first:
-      213: -6252719415835149531
-    second: gameplaycroc 1_3
+      213: -7700045119777684314
+    second: Logo (3)_3
   - first:
-      213: 1595813517614468032
-    second: gameplaycroc 1_4
-  - first:
-      213: -4036260909137755018
-    second: gameplaycroc 1_5
+      213: 5618885352890607628
+    second: Logo (3)_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,150 +108,115 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gameplaycroc 1_0
+      name: Logo (3)_0
       rect:
         serializedVersion: 2
-        x: 1726
-        y: 1137
-        width: 23
-        height: 23
+        x: 19
+        y: 274
+        width: 92
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcbe078de9753a260800000000000000
-      internalID: 7107620976668502987
+      spriteID: a5d1a8ade78ac62c0800000000000000
+      internalID: -4436986270080950950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gameplaycroc 1_1
-      rect:
-        serializedVersion: 2
-        x: 1748
-        y: 0
-        width: 3902
-        height: 4696
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c4f08cf5c368f570800000000000000
-      internalID: 8500653998657828041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gameplaycroc 1_2
-      rect:
-        serializedVersion: 2
-        x: 1726
-        y: 797
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5732829aceb8eda60800000000000000
-      internalID: 7700746261416649589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gameplaycroc 1_3
+      name: Logo (3)_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 671
-        width: 38
-        height: 52
+        y: 0
+        width: 956
+        height: 465
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52b35f2d1d0e939a0800000000000000
-      internalID: -6252719415835149531
+      spriteID: 86641148ad3a53120800000000000000
+      internalID: 2392998935931209320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gameplaycroc 1_4
+      name: Logo (3)_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 721
-        width: 23
-        height: 23
+        x: 414
+        y: 334
+        width: 92
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cb4d2570f7752610800000000000000
-      internalID: 1595813517614468032
+      spriteID: e3fb2554ca92d3600800000000000000
+      internalID: 449561357681082174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gameplaycroc 1_5
+      name: Logo (3)_3
       rect:
         serializedVersion: 2
-        x: 36
-        y: 650
-        width: 23
-        height: 23
+        x: 0
+        y: 199
+        width: 11
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6748c0296125cf7c0800000000000000
-      internalID: -4036260909137755018
+      spriteID: 6a4cb2992c1f32590800000000000000
+      internalID: -7700045119777684314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo (3)_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 199
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08a0b4557a4afd40800000000000000
+      internalID: 5618885352890607628
       vertices: []
       indices: 
       edges: []
@@ -263,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b25974f061e1cfa40a2719ca51ac9f92
     internalID: 0
     vertices: []
     indices: 
@@ -272,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Logo (3)_0: -4436986270080950950
+      Logo (3)_1: 2392998935931209320
+      Logo (3)_2: 449561357681082174
+      Logo (3)_3: -7700045119777684314
+      Logo (3)_4: 5618885352890607628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
