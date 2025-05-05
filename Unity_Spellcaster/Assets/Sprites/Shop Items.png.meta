@@ -503,101 +503,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Items_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2001
-        height: 2001
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0cd8d571f0e1e6300800000000000000
-      internalID: 247168079717305792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shop Items_19
-      rect:
-        serializedVersion: 2
-        x: 2306
-        y: 0
-        width: 2002
-        height: 2001
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6118b822867e454a0800000000000000
-      internalID: -6605400319003492074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shop Items_20
-      rect:
-        serializedVersion: 2
-        x: 4613
-        y: 0
-        width: 2001
-        height: 2001
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee7c1f4fc63eb5530800000000000000
-      internalID: 3844916763996309486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shop Items_21
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2222
-        width: 2308
-        height: 2322
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 984af0ba97e1f964d987bc447e688bef
-      internalID: -1423503510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Shop Items_0
       rect:
         serializedVersion: 2
-        x: 2091
-        y: 2234
-        width: 2308
-        height: 2322
+        x: 1668
+        y: 1715
+        width: 2984
+        height: 3055
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,10 +528,10 @@ TextureImporter:
       name: Shop Items_3
       rect:
         serializedVersion: 2
-        x: 4300
-        y: 2240
-        width: 2308
-        height: 2322
+        x: 6233
+        y: 1786
+        width: 2984
+        height: 3055
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,6 +542,94 @@ TextureImporter:
       bones: []
       spriteID: 93c4090726e5e1c469c46b7850363174
       internalID: 2034725996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Items_4
+      rect:
+        serializedVersion: 2
+        x: 10751
+        y: 1621
+        width: 2984
+        height: 3055
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c4360321bb2ac4d9bcc58467ab1cdf
+      internalID: -1550416617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Items_18
+      rect:
+        serializedVersion: 2
+        x: 10727
+        y: 6627
+        width: 2984
+        height: 3055
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad57b068d12a7164399fd31ebe568921
+      internalID: 906264187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Items_19
+      rect:
+        serializedVersion: 2
+        x: 6457
+        y: 6627
+        width: 2984
+        height: 3055
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ed5ac9793ec3740a347d1c58e9ef41
+      internalID: 1749925468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Items_20
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 6627
+        width: 2984
+        height: 3055
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517a796fb8230d849bc14bb7177b6eb4
+      internalID: 1983819294
       vertices: []
       indices: 
       edges: []
@@ -649,8 +649,12 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Shop Items_0: 1909483501
+      Shop Items_18: 906264187
+      Shop Items_19: 1749925468
+      Shop Items_20: 1983819294
       Shop Items_21: -1423503510
       Shop Items_3: 2034725996
+      Shop Items_4: -1550416617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
